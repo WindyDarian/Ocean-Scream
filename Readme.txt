@@ -6,7 +6,7 @@ This was a teamwork, I designed the rule and coded for the game part while, for 
 Mainly I wrote all the game part except the MSTCOS.Network and the StartMenu. 
 
 AI api are not my work, and the AI SDK of Ocean Scream is not here.
-Here I provide two AI for test, just run them and then run the compiled Ocean Scream and you can play.
+Here I provide two AI for test, just run them and then run the compiled Ocean Scream and you can play. 
 These test AIs are from the “Beauty of Programming 2012” disscussion group, and they are not my work.
 AI的开发包并未包含在这里。
 但是提供了几个用于测试的AI，它们来自于“编程之美2012”的讨论群。
