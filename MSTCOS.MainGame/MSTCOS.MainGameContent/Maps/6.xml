@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+  <!-- TODO: 将此资产替换为您自有的 XML 资产数据。 -->
+  <Asset Type="MSTCOS.GameWorld.Map">
+    <Resources>
+      -512 -384
+      0 128
+      0 -384
+      0 640
+      512 -384
+    </Resources>
+  </Asset>
+</XnaContent>

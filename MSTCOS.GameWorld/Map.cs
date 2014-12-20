@@ -1,0 +1,17 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using Microsoft.Xna.Framework;
+
+namespace MSTCOS.GameWorld
+{
+    /// <summary>
+    /// 地图
+    /// </summary>
+    [Serializable]
+    public class Map
+    {
+        public List<Vector2> Resources;
+    }
+}

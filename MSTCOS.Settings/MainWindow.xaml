@@ -1,0 +1,21 @@
+﻿<Window x:Class="MSTCOS.Settings.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Ocean Scream 选项" Height="344" Width="476" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" Loaded="Window_Loaded">
+    <Grid Width="449">
+        <Label Content="分辨率" Height="28" HorizontalAlignment="Left" Margin="44,63,0,0" Name="label1" VerticalAlignment="Top" />
+        <Label Content="环境效果" Height="28" HorizontalAlignment="Left" Margin="44,134,0,0" Name="label2" VerticalAlignment="Top" />
+        <RadioButton Content="开启" Height="16" HorizontalAlignment="Left" Margin="126,139,0,0" Name="AmbientOpen" VerticalAlignment="Top" GroupName="EnableAmbient" DataContext="{Binding}" IsChecked="True" />
+        <RadioButton Content="关闭" Height="16" HorizontalAlignment="Left" Margin="186,139,0,0" Name="AmbientClose" VerticalAlignment="Top" GroupName="EnableAmbient" />
+        <RadioButton Content="1280 × 720" Height="16" HorizontalAlignment="Left" Margin="126,68,0,0" Name="resolution1280_720" VerticalAlignment="Top" GroupName="Resolution" IsChecked="True" />
+        <RadioButton Content="1024 × 768" Height="16" HorizontalAlignment="Left" Margin="126,90,0,0" Name="resolution1024_768" VerticalAlignment="Top" GroupName="Resolution" />
+        <RadioButton Content="800 × 600" Height="16" HorizontalAlignment="Left" Margin="126,112,0,0" Name="resolution800_600" VerticalAlignment="Top" GroupName="Resolution" />
+        <Label Content="IP地址" Height="28" HorizontalAlignment="Left" Margin="44,164,0,0" Name="label3" VerticalAlignment="Top" />
+        <TextBox Height="26" HorizontalAlignment="Left" Margin="126,164,0,0" Name="IPBox" VerticalAlignment="Top" Width="153" />
+        <Label Content="端口" Height="28" HorizontalAlignment="Left" Margin="44,198,0,0" Name="label4" VerticalAlignment="Top" />
+        <TextBox Height="26" HorizontalAlignment="Left" Margin="126,198,0,0" Name="PortBox" VerticalAlignment="Top" Width="48" />
+        <Button Content="确定" Height="23" HorizontalAlignment="Left" Margin="280,270,0,0" Name="button1" VerticalAlignment="Top" Width="76" Click="button1_Click" />
+        <Button Content="取消" Height="23" HorizontalAlignment="Left" Margin="362,270,0,0" Name="button2" VerticalAlignment="Top" Width="75" Click="button2_Click" />
+        <Button Content="默认" Height="23" HorizontalAlignment="Left" Margin="44,270,0,0" Name="button3" VerticalAlignment="Top" Width="75" Click="button3_Click" />
+    </Grid>
+</Window>
