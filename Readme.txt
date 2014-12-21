@@ -12,3 +12,16 @@ AI的开发包并未包含在这里。
 但是提供了几个用于测试的AI，它们来自于“编程之美2012”的讨论群。
 
 Ported to Visual Studio 2013 and XNA 4.0 refresh(https://msxna.codeplex.com/releases/view/117230).
+
+
+
+Rule:
+1. Destroy all of the enemy fleet to win. Upon time limit, the fleet with more ships wins.
+2. The more island you possess, the faster your fleet's hitpoint restore
+3. Critical hit if you hit directly in the front or the back of a ship
+4. Massive damage upun ram impact.
+规则:
+1. 全灭或是时间到后自动决定胜负。
+2. 占的岛越多全队回血越快。
+3. 击中船头和船尾有致命一击。
+4. 冲撞时船舷被撞者受到大量伤害。
