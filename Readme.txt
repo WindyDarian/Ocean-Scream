@@ -19,7 +19,7 @@ Rule:
 1. Destroy all of the enemy fleet to win. Upon time limit, the fleet with more ships wins.
 2. The more island you possess, the faster your fleet's hitpoint restore
 3. Critical hit if you hit directly in the front or the back of a ship
-4. Massive damage upun ram impact.
+4. Massive damage upon ram impact.
 规则:
 1. 全灭或是时间到后自动决定胜负。
 2. 占的岛越多全队回血越快。
